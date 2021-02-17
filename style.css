@@ -11,11 +11,35 @@ html {
   font-family: "Oswald", sans-serif;
 }
 /* NAVIGATION */
+
 nav {
+  margin: 10px 0px;
+  text-align: right;
 }
+nav a {
+  display: inline-block;
+  color: #555;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0 10px;
+}
+nav a.contact {
+  margin-right: 50px;
+  margin-left: 150px;
+  border: solid 2px #555;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+}
+nav a:hover {
+  border-bottom: solid 2px #555;
+  color: black;
+}
+
 /* HEADER */
 header {
-  height: 40vh;
+  height: 50vh;
   /* 40%okna przegladarki */
   background-image: url("car.png");
   background-size: cover;
@@ -24,6 +48,6 @@ header h1 {
   font-size: 6rem;
   color: white;
   text-align: center;
-  line-height: 40vh;
+  line-height: 50vh;
   background-color: rgba(0, 0, 0, 0.7);
 }
